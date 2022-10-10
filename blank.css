@@ -1,0 +1,38 @@
+@font-face {
+    font-family: avenirblack;
+    src: url(fonts/AvenirLTStd-Black.otf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: avenirblack;
+    min-height: 100vh;
+    color: #333f33;
+}
+
+.blank-page img{
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    line-height: 1rem;
+}
+
+.container h1{
+    font-size: 120px;
+    margin-bottom: 3%;
+}
+
+.container a{
+    text-decoration: none;
+    background-color: #FBB03B;
+    color: #fff;
+    padding: 12px;
+    border-radius: 24px;
+
+}

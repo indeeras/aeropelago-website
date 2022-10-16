@@ -13,12 +13,12 @@
     src: url(fonts/Bebas-Regular.otf);
 }
 
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
+/* @media only screen and (max-width: 768px) {
+    For mobile phones:
     [class*="col-"] {
       width: 100%;
     }
-  }
+  } */
 
 
 *{
@@ -818,3 +818,21 @@ footer{
     margin-top: 45%;
     text-align: left;
 }
+
+
+/* @media screen and (max-width:600px){
+    nav{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 40% 45% 15%;
+    }
+    .logo{
+        width: 100%;
+    }
+
+    .first-fold img{
+        width: 100%;
+    }
+
+
+    } */
